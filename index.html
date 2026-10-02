@@ -3,11 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Number Guessing game</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Welcome To Number Guessing Game</h1>
+    <center>
+        <u><h1>Number Guessing Game</h1></u>
+    <form action="">
+        <label for="text"> Take a guess from 1-10 </label>
+        <label for="Number">  : </label>
+        <label for="Number"> # </label>
+    </form>
+    <br>
+    <input type="text" placeholder="Take A Guess" id="num">
+    <button class="btnGuess" onclick="guessBtnOnAction()">Guess</button>
+    </center>
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <script src="app.js"></script>
 </body>
 </html>
