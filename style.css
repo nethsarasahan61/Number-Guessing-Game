@@ -1,3 +1,6 @@
+body{
+    background-color:#d7eaff;
+}
 .btnGuess{
     display: inline-block;
     padding: 12px 24px;
