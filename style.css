@@ -1,0 +1,22 @@
+body{
+    background-color:#d7eaff;
+}
+.btnGuess{
+    display: inline-block;
+    padding: 12px 24px;
+    font-size: 12px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    
+    color: #ffffff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 6px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+
+}
+.btnGuess:hover {    
+    background-color: #0b325b;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
