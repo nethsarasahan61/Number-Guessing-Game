@@ -1,6 +1,6 @@
 console.log("hello");
 function guessBtnOnAction(){
-    let number =  Math.floor(Math.random() * 10);
+    let number =  Math.floor(Math.random() * 10+1);
     let num= document.getElementById("num").value;
     if(number==num){
         Swal.fire({
